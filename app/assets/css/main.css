@@ -1,6 +1,8 @@
 @import "tailwindcss";
 @import "@nuxt/ui";
 
+@plugin "@tailwindcss/typography";
+
 @theme {
   --font-display: "Satoshi", "sans-serif";
   --breakpoint-3xl: 120rem;
