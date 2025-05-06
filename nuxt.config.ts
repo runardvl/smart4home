@@ -9,6 +9,7 @@ export default defineNuxtConfig({
     "@nuxt/ui",
     "@nuxt/content",
     "@nuxthq/studio",
+    "nuxt-typed-router",
   ],
 
   css: ["~/assets/css/main.css"],
@@ -20,6 +21,11 @@ export default defineNuxtConfig({
   content: {
     preview: {
       api: "https://api.nuxt.studio",
+      gitInfo: {
+        name: "smart4home",
+        owner: "runardvl/smart4home",
+        url: "https://github.com/runardvl/smart4home.git",
+      },
     },
     build: {
       markdown: {
